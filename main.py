@@ -85,7 +85,7 @@ class Counter:
             pass
 
     def validate(self, new_text):
-        if not new_text:  # the field is being cleared
+        if not new_text:
             return True
         try:
             int(new_text)
